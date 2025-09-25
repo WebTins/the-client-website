@@ -1,1 +1,19 @@
-/* CSS */
+header {
+    padding: 2px black;
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo {
+    height: 120px;
+}
