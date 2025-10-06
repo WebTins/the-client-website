@@ -1,96 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Buurtcampus Amsterdam</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
+    <body>
     <!-- Header van de website -->
-    <header>
-        <!-- Logo dat klikbaar is en navigeert naar de homepagina -->
-        <img class="logo" src="assets/BCHvA.png" alt="Klik om naar de Home pagina te gaan">
+        <header>
+            <!-- Logo dat klikbaar is en navigeert naar de homepagina -->
+            <img class="logo" src="assets/BCHvA.png" alt="Klik om naar de Home pagina te gaan">
 
-        <!-- Navbar waar je naar verschillende pagina's kan navigeren -->
-        <nav class="nav">
-            <ul>
-                <li>
-                    <a href=""><b>Nieuws</b></a>
-                </li>
+            <!-- Navbar waar je naar verschillende pagina's kan navigeren -->
+            <nav class="nav">
+                <ul>
+                    <li> <a href=""><b>Nieuws</b></a> </li>
+                    <li> <a href="">Voor wie</a> </li>
+                    <li> <a href="">Over</a> </li>
+                    <li> <a href="">Projecten</a> </li>
+                    <li> <a href="">Vacatures</a> </li>
+                    <li> <a href="">Agenda</a> </li>
+                    <li> <button class="contactknop">Contact</button> </li>
+                </ul>
+            </nav>
+        </header>
 
-                <li>
-                    <a href="">Voor wie</a>
-                </li>
+        <section class="nieuws-container">
+             <!-- H1 titel van de pagina -->
+            <h1>Nieuws</h1>
+            <!-- Artikelen -->
+            <article class="sport-jong-oud">
+                <div class="flexbox-content">
+                    <img class="sport-img" src="assets/sport.webp" alt="sport-jong-oud">
+                    <span class="datum">17-09-2025</span>
+                    <h2>Wandelen in de natuur: goed voor jou én de planeet</h2>
+                    <p class="beschrijving">Van september t/m april gaan studenten van de opleiding Fysiotherapie samen op bootcamp met ouderen in een  rolstoel of met rollator.<br> In samenwerking met Cordaan en de Sociale Sportschool wordt een serieuze work-out gecombineerd met een sociaal component.</p>
+                    <button class="read-button">Lees meer</button>
+                </div>
+            </article>
 
-                <li>
-                    <a href="">Over</a>
-                </li>
+            <article class="wandelen">
+                <div class="flexbox-content">
+                    <img class="wandel-img" src="assets/wandelen.webp" alt="bewoners-wandelen">
+                    <span class="datum">17-09-2025</span>
+                    <h2>Bewegen verbindt: jong en oud bij de Sociale Sportschool</h2>
+                    <p class="beschrijving">Buurtcampus Oost heeft studenten van de opleiding IPZ gevraagd om vanaf oktober tot half januari elke woensdagochtend van 10.00 tot 11.00 een Natuurwandeling in het Frankendaelpark te ontwikkelen en organiseren. Aansluitend kunnen buurtbewoners een kopje koffie of thee drinken aan de grote ‘Oost-tafel’ bij OBA Linnaeus tijdens Bakkie in de Bieb.</p>
+                    <button class="read-button">Lees meer</button>
+                </div>
+            </article>
 
-                <li>
-                    <a href="">Projecten</a>
-                </li>
-
-                <li>
-                    <a href="">Vacatures</a>
-                </li>
-
-                <li>
-                    <a href="">Agenda</a>
-                </li>
-
-                <!-- De contact button navigeert naar het contact pagina -->
-                <li>
-                    <button>Contact</button>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <!-- H1 titel van de pagina -->
-    <h1>Nieuws</h1>
-
-    <section class="nieuws-container">
-        <article class="sport-jong-oud">
-            <div class="flexbox-content">
-            <img class="sport-img" src="assets/sport.webp" alt="sport-jong-oud">
-            <span class="datum">17-09-2025</span>
-            <h2>Wandelen in de natuur: goed voor jou én de planeet</h2>
-            <p class="beschrijving">Van september t/m april gaan studenten van de opleiding Fysiotherapie samen op bootcamp met ouderen in een 
-            rolstoel of met rollator.<br> In samenwerking met Cordaan en de Sociale Sportschool wordt een serieuze work-out
-            gecombineerd met een sociaal component.</p>
-            <button class="read-button">Lees meer</button>
-        </div>
-        </article>
-
-        <article class="wandelen">
-            <div class="flexbox-content">
-            <img class="wandel-img" src="assets/wandelen.webp" alt="bewoners-wandelen">
-            <span class="datum">17-09-2025</span>
-            <h2>Bewegen verbindt: jong en oud bij de Sociale Sportschool</h2>
-            <p class="beschrijving">Buurtcampus Oost heeft studenten van de opleiding IPZ gevraagd om vanaf oktober tot half januari elke woensdagochtend 
-            van 10.00 tot 11.00 een Natuurwandeling in het Frankendaelpark te ontwikkelen en organiseren. 
-            Aansluitend kunnen buurtbewoners een kopje koffie of thee drinken aan de grote ‘Oost-tafel’ bij OBA Linnaeus 
-            tijdens Bakkie in de Bieb.</p>
-            <button class="read-button">Lees meer</button>
-            </div>
-        </article>
-
-        <article class="buurttuin">
-            <div class="flexbox-content">
-            <img class="buurttuin-img" src="assets/buurttuin.webp" alt="buurttuin">
-            <span class="datum">17-09-2025</span>
-            <h2>Informatieve buurttuin Elixer: van buurtkennis naar gezonde inspiratie</h2>
-            <p class="beschrijving">Bij restaurant Elixer In Amsterdam Oost wordt gewerkt aan een informatieve buurttuin: een plek waar buurtbewoners 
-               samen kunnen komen, tot rust kunnen komen én iets kunnen leren over eetbare natuur, gezondheid en de korte voedselketen.
-               De tuin zal o.a. inheemse (eetbare) kruiden en bloemen bevatten en laat zien wat je kunt doen met een klein stuk groen in de stad. 
-               Studenten van de Module Food & Health Promotion (Voeding en Diëtetiek, FGSB, HvA) gaan geïnteresseerde buurtbewoners actief betrekken bij het project.
-            </p>
-            <button class="read-button">Lees meer</button>
-            </div>
-        </article>
-    </section>
-
-</body>
-    
+            <article class="buurttuin">
+                <div class="flexbox-content">
+                    <img class="buurttuin-img" src="assets/buurttuin.webp" alt="buurttuin">
+                    <span class="datum">17-09-2025</span>
+                    <h2>Informatieve buurttuin Elixer: van buurtkennis naar gezonde inspiratie</h2>
+                    <p class="beschrijving">Bij restaurant Elixer In Amsterdam Oost wordt gewerkt aan een informatieve buurttuin: een plek waar buurtbewoners samen kunnen komen, tot rust kunnen komen én iets kunnen leren over eetbare natuur, gezondheid en de korte voedselketen.De tuin zal o.a. inheemse (eetbare) kruiden en bloemen bevatten en laat zien wat je kunt doen met een klein stuk groen in de stad. Studenten van de Module Food & Health Promotion (Voeding en Diëtetiek, FGSB, HvA) gaan geïnteresseerde buurtbewoners actief betrekken bij het project.</p>
+                    <button class="read-button">Lees meer</button>
+                </div>
+            </article>
+        </section>
+    </body>
 </html>
