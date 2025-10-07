@@ -88,12 +88,45 @@ h2 {
 
 /* Afbeelding van het artikel */
 .sport-img, .wandel-img, .buurttuin-img {
-    width: 100%;
-    height: 150px;
+    max-width: 100%;
+    height: 10rem;
     object-fit: cover;
     border-radius: 8px;
 }
+
 .flexbox-content {
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width: 834px) {
+    .nieuws-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .sport-jong-oud, .wandelen, .buurttuin {
+        height: fit-content;
+        border: 10px solid hsl(0, 0%, 100%);
+        border-radius: 25px;
+        box-shadow: 1px 5px 10px 10px hsl(0, 0%, 78%);
+        padding: 1rem;
+        margin: 1rem;
+    }
+
+    .sport-img, .wandel-img, .buurttuin-img {
+        max-width: 100%;
+        height: 10rem;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .beschrijving {
+    line-height: 1.4;
+    }
+
+    .flexbox-content {
+    display: flex;
+    flex-direction: column;
+}
 }
