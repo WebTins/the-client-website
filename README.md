@@ -13,7 +13,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
   * [Licentie](#licentie)
 
 ## Beschrijving
-[Bekijk hier de website!]([https://pages.github.com/](https://webtins.github.io/the-client-website/))
+Bekijk hier de website! [https://webtins.github.io/the-client-website/]
 
 De nieuws pagina ziet er uit als het ontwerp waar je alle nieuws artikelen met een mooie stijl. Het doel is om alle doelgroepen aan te spreken met een mooie overzichtelijke nieuws pagina. 
 
@@ -23,9 +23,10 @@ Op de nieuws pagina zie je bovenaan een logo met de navigatie waar je naar ander
 
 
 Als je op de nieuws pagina terecht komt op je mobiel, dan zie je een kolom die naar beneden gaat waar je nieuws artikelen ziet die in blokjes zitten.
+
 <img width="355" height="799" alt="image" src="https://github.com/user-attachments/assets/0765943c-5f5f-4910-8c55-9de63e2ee08d" />
 
-
+De gebruiker hoort een klein gedeelte van het nieuws artikel te zien wat dus de Titel en Beschrijving is. Zodra de gebruiker op "Lees meer" klikt dan wordt de gebruiker naar een nieuwe pagina gestuurd en ziet het volledige artikel.
 
 
 
