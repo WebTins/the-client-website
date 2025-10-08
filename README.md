@@ -13,7 +13,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
   * [Licentie](#licentie)
 
 ## Beschrijving
-Bekijk hier de website! [https://webtins.github.io/the-client-website/]
+Bekijk hier de [website!](https://webtins.github.io/the-client-website/)
 
 De nieuws pagina ziet er uit als het ontwerp waar je alle nieuws artikelen met een mooie stijl. Het doel is om alle doelgroepen aan te spreken met een mooie overzichtelijke nieuws pagina. 
 
