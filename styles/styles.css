@@ -162,6 +162,14 @@ h2 {
 
 /* TABLET MODE */
 @media screen and (min-width: 834px) {
+    .nav ul {
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .nieuws-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr)
