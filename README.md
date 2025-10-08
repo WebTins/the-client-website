@@ -33,7 +33,13 @@ De gebruiker hoort een klein gedeelte van het nieuws artikel te zien wat dus de 
 
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+
+Één van de belangrijkste technieken die ik gebruik voor de artikelen is "Grid". Met grid ga ik de artikelen in kolommen en rijen zetten zodat ze mooi precies naast elkaar en onder elkaar staan.
+
+Mijn code conventions zijn:
+
+CamelCase
+Ademruimte
 
 
 
