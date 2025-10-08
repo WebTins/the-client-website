@@ -14,6 +14,7 @@ De instructie van deze leertaak staan in de [INSTRUCTIONS](https://github.com/fd
 
 ## Beschrijving
 Bekijk hier de [website!](https://webtins.github.io/the-client-website/)
+Bekijk hier het [ontwerp!](https://www.figma.com/design/GRdLpkhxYTfgDDJRlVFulP/Untitled?node-id=0-1&t=cJJYe3mF9nVLl5ae-1)
 
 De nieuws pagina ziet er uit als het ontwerp waar je alle nieuws artikelen met een mooie stijl. Het doel is om alle doelgroepen aan te spreken met een mooie overzichtelijke nieuws pagina. 
 
