@@ -38,8 +38,11 @@ De gebruiker hoort een klein gedeelte van het nieuws artikel te zien wat dus de 
 
 Mijn code conventions zijn:
 
-CamelCase
+class-name
+
 Ademruimte
+
+Volgorde
 
 
 
